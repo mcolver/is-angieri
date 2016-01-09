@@ -1,0 +1,27 @@
+{
+  "name": "is-angieri",
+  "version": "0.0.0",
+  "description": "A professional portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isangieri/is-angieri.git"
+  },
+  "author": "Is Angieri",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/isangieri/is-angieri/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "mongoose": "~4.3.1",
+    "body-parser": "~1.14.1",
+    "mongodb": "~2.1.0",
+    "nodemon": "~1.8.1",
+    "express-session": "~1.12.1",
+    "raphael": "*"
+  }
+}
