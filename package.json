@@ -25,6 +25,6 @@
     "raphael": "*"
   },
   "scripts": {
-  "start": "node server.js"
+  "start": "node seed.js"
 }
 }
