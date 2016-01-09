@@ -1,4 +1,4 @@
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/professional_portfolio");
+mongoose.connect("mongodb://localhost/is-angieri");
 
 module.exports.Work = require("./work.js");
