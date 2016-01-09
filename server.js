@@ -1,18 +1,11 @@
 // SERVER-SIDE JAVASCRIPT
 var mongoose = require('mongoose');
-//require express in our app
+var bodyParser = require('body-parser');
 var express = require('express');
-// generate a new express app and call it 'app'
 var app = express();
 
-// configure bodyParser (for receiving form data)
-var bodyParser = require("body-parser");
-// parse POSTed data
 app.use(bodyParser.urlencoded({extended: true}));
-
-// serve static files from public folder
 app.use(express.static(__dirname + '/public'));
-
 app.use(express.static(__dirname + '/node_modules'));
 
 /*
@@ -47,10 +40,3 @@ var db = require("./models/index.js");
 app.listen(process.env.PORT || 3000, function () {
   console.log('Express server is running on http://localhost:3000/');
 });
-
-//mongoose connect
-mongoose.connect(
-  process.env.MONGOLAB_URI ||
-  process.env.MONGOHQ_URL ||
-  'mongodb://localhost/is-angieri'
-);

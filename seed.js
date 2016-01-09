@@ -1,7 +1,6 @@
 var db = require("./models");
 
 var workList =[
-  // put data here!
   {
     projectName: 'Nine Inch Nails',
     name: 'The Downward Spiral',
@@ -28,7 +27,7 @@ var workList =[
   }
 ];
 
-db.Work.remove({}, function(err, work){
+db.Work.remove({}, function (err, work) {
 
   db.Work.create(workList, function(err, work){
     if (err) { return console.log('ERROR', err); }
