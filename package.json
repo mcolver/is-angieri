@@ -23,5 +23,8 @@
     "nodemon": "~1.8.1",
     "express-session": "~1.12.1",
     "raphael": "*"
-  }
+  },
+  "scripts": {
+  "start": "node server.js"
+}
 }
