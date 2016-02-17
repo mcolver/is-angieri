@@ -294,8 +294,8 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/images/splash.jpg) no-repeat center center scroll;
-    background-color: #000;
+    /*background: url(/images/transparent-gradient.png) no-repeat center center scroll;*/
+    background-color: rgb(227,99,1);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
