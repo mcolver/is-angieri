@@ -295,7 +295,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     /*background: url(/images/transparent-gradient.png) no-repeat center center scroll;*/
-    background-color: rgb(227,99,1);
+    background-color: #6c7b7e;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -328,6 +328,7 @@ a:focus {
     text-transform: uppercase;
     font-family: "Garamond", serif;
     font-weight: 400;
+    padding: 5px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
