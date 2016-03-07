@@ -8,60 +8,39 @@
 $(document).ready(function() {
   console.log('app.js loaded!');
 
-  // $("document").ready(function() {
+  var click = 1;
 
-  //   // Creates canvas 320 × 200 at 10, 50
-  //   var paper = Raphael(10, 50, 320, 200);
+  $('.device-shape').click( function (e) {
+    e.preventDefault();
 
-  //   // Creates circle at x = 50, y = 40, with radius 10
-  //   var circle = paper.circle(50, 40, 10);
-  //   // Sets the fill attribute of the circle to red (#f00)
-  //   circle.attr("fill", "#EEEEEE");
+    var $shape = $(this);
+    var $screen = $(this).children('.device-screen');
 
-  //   // Sets the stroke attribute of the circle to white
-  //   circle.attr("stroke", "#EEEEEE");
+    click ++;
 
-  //   $("path").hover(function(){
-  //     $(this).css({ fill: "#ffffff"});
-  //     $(this).css({ stroke: "#000"});
-  //   });
+    if (click % 2 === 0) {
+      // animateRotation(0,90);
+      $shape.switchClass('device-shape-vertical', 'device-shape-horizontal', 1000, "linear");
+      $screen.switchClass('device-screen-vertical', 'device-screen-horizontal', 1000, "linear");
+    } else {
+      // animateRotation(90,0);
+      $shape.switchClass('device-shape-horizontal', 'device-shape-vertical', 1000, "linear");
+      $screen.switchClass('device-screen-horizontal', 'device-screen-vertical', 1000, "linear");
+    }
 
-  //   // css({ fill: "#ff0000" });
-
-  //   // $("path").mouseenter(function(){
-  //   //   $(this).animate({ stroke: "#EA730B"});
-  //   // });
-
-  //   // <path fill-rule="evenodd" clip-rule="evenodd" fill="#597C48" stroke="#FF7300" stroke-width="2">
-
-  // });
-
-  $(window).resize(function(){
-
-  $('.iphone-container').css({
-    position:'absolute',
-    left: (
-      $('.light').width(),
-      $('.iphone-container').outerWidth())/2,
-    top: ($('.light').height(),
-      $('.iphone-container').outerHeight())/2
   });
 
-  $('.iphone-container').css({
-    position:'absolute',
-    left: (
-      $('.dark').width(),
-      $('.iphone-container').outerWidth()
-      )/2,
-    top: (
-      $('.dark').height(),
-      $('.iphone-container').outerHeight()
-      )/2
-  });
+  function animateRotation(startangle, endangle) {
 
- });
- 
- $(window).resize();
+    var $device = $('.device-shape');
 
+    $({deg: startangle}).animate({deg: endangle}, {
+      duration: 500,
+      step: function(now) {
+        $device.css({transform: 'rotate(' + now + 'deg)',});
+      }
+    })
+
+  }
 
 });
