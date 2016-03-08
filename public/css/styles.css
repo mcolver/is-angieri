@@ -29,6 +29,7 @@
 /* COLORS
   - light-black:     #141611
   - white:           #fff
+  - gray:           #6c7b7e
 */
 
 
@@ -158,6 +159,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 1px;
 }
+h1 {
+  margin: 60px;
+}
+#app-description {
+  margin: 0 30px;
+}
+i {
+  font-size: 14px;
+}
 p {
   margin: 0 0 25px;
   font-size: 18px;
@@ -266,12 +276,7 @@ a:hover, a:focus {
   background-color: #fff;
 }
 ul.banner-social-buttons {
-  margin-top: 0;
-}
-@media(max-width:1199px) {
-  ul.banner-social-buttons {
-    margin-top: 15px;
-  }
+  margin-top: 15px;
 }
 @media(max-width:767px) {
   ul.banner-social-buttons li {
@@ -319,10 +324,10 @@ ul.banner-social-buttons {
 }
 .applications-section {
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 50px;
   color: #fff;
   /*background: url(/images/transparent-gradient.png) no-repeat center center scroll;*/
-  background-color: #6c7b7e;
+  background-color: #141611;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -335,6 +340,9 @@ ul.banner-social-buttons {
   .applications-section {
     padding: 100px 0;
   }
+}
+#contact {
+  margin-top: 100px;
 }
 
 /* === IMAGES + LINKS === */
@@ -351,44 +359,49 @@ img::-moz-selection {
   display: center;
 }
 .device-shape-vertical {
-  height: 532px;
-  width: 295px;
+  height: 470px;
+  width: 260px;
   border-radius: 40px;
   border: 2px solid #fff;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 10px auto;
   padding: 60px 10px;
   position: relative;
 }
 .device-screen-vertical {
-  height: 400px;
-  width: 270px;
+  height: 352px;
+  width: 238px;
   border: 1px solid #fff;
   overflow: hidden;
   position: relative;
-  background: url(/images/splash.jpg) no-repeat bottom center scroll;
+  background: url(/images/flick-hike-mobile.png) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .device-shape-horizontal {
-  height: 260px;
+  height: 264px;
   width: 470px;
-  border-radius: 40px;
+  border-radius: 10px;
   border: 2px solid #fff;
-  margin: 0 auto 40px auto;
-  padding: 10px 60px;
+  margin: 0 auto 10px auto;
+  padding: 12px 23px;
   position: relative;
 }
 .device-screen-horizontal {
-  height: 238px;
-  width: 352px;
+  height: 236px;
+  width: 420px;
   border: 1px solid #fff;
   overflow: hidden;
   position: relative;
-  background: url(/images/splash.jpg) no-repeat bottom center scroll;
+  background: url(/images/flick-hike-web.png) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+#next {
+  margin: 0 auto;
+  position: relative;
+  padding: 10px 10px;
 }

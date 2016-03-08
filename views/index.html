@@ -59,7 +59,7 @@
               <a class="page-scroll" href="#about">About</a>
             </li>
             <li>
-              <a class="page-scroll" href="#applications">Applications</a>
+              <a class="page-scroll" href=".applications-section">Applications</a>
             </li>
             <li>
               <a class="page-scroll" href="#contact">Contact</a>
@@ -105,100 +105,30 @@
     <!-- Applications Section -->
     <section id="applications" class="content-section text-center">
       <div class="applications-section">
+        <h1>Applications</h1>
         <div class="container">
           <div class="col-md-6">
             <!-- Device -->
             <div class="device" id="device">
-              <div class="device-shape device-shape-vertical">
-                <div class="device-screen device-screen-vertical">
+              <div class="device-shape-horizontal" id="device-shape" data-id=false >
+                <div class="device-screen-horizontal" id="device-screen">
                 </div>
               </div>
+              <i>click device to toggle view | mobile or desktop </i>
+              <a id="next" data-id=0 class="btn">
+                <i class="animated">view next</i>
+              </a>
             </div>
           </div>
-          <div class="col-md-6">
-            <h2>Flick Hike</h2>
-            <p>Flick Hike is a curation driven site for discovering San Francisco via historic film scene locations. Users curate lists of memorable film scenes, plot their own filmic adventures around the city, and share them with others.</p>
+          <div id="application" class="col-md-6">
+            <h2 id="app-title">Flick Hike</h2>
+            <p id="app-description">Flick Hike is a curation driven site for discovering San Francisco via historic film scene locations. Users curate lists of memorable film scenes, plot their own filmic adventures around the city, and share them with others.</p>
             <ul class="list-inline banner-social-buttons">
               <li>
-                <a href="http://www.filmhikes.com" class="btn btn-default btn-lg"><span class="network-name">Proof of Concept</span></a>
+                <a id="app-link" href="http://www.filmhikes.com" class="btn btn-default btn-lg"><span class="network-name">Proof of Concept</span></a>
               </li>
               <li>
-                <a href="https://github.com/isangieri/flick-hike" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="applications-section">
-        <div class="container">
-          <div class="col-md-6">
-            <!-- Device -->
-            <div class="device" id="device">
-              <div class="device-shape device-shape-vertical">
-                <div class="device-screen device-screen-vertical">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <h2>EvictUs</h2>
-            <p>A web application for publicly documenting evictions in San Francisco, connecting users to tenant’s rights information, and existing advocacy efforts. EvictUs is a social forum where users engage in discussion and commentary about recent San Francisco evictions.</p>
-            <ul class="list-inline banner-social-buttons">
-              <li>
-                <a href="https://sf-evictions-feed.herokuapp.com/" class="btn btn-default btn-lg"><span class="network-name">Proof of Concept</span></a>
-              </li>
-              <li>
-                <a href="https://github.com/isangieri/sf-eviction-feed" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="applications-section">
-        <div class="container">
-          <div class="col-md-6">
-            <!-- Device -->
-            <div class="device" id="device">
-              <div class="device-shape device-shape-vertical">
-                <div class="device-screen device-screen-vertical">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <h2>Fleeting Beauty</h2>
-            <p>Fleeking Beauty allows users to unleash their aesthetic judgments upon the internet presence of any place on earth. Users vote on photos of an unnamed place, judging whether they deem them to be "hot" or "not". We store users' vote data and display it visually using graphs.</p>
-            <ul class="list-inline banner-social-buttons">
-              <li>
-                <a href="http://fleetingbeauty.herokuapp.com/" class="btn btn-default btn-lg"><span class="network-name">Proof of Concept</span></a>
-              </li>
-              <li>
-                <a href="https://github.com/BreonKnight/fleeking_beauty" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="applications-section">
-        <div class="container">
-          <div class="col-md-6">
-            <!-- Device -->
-            <div class="device" id="device">
-              <div class="device-shape device-shape-vertical">
-                <div class="device-screen device-screen-vertical">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <h2>Travelogue</h2>
-            <p>Travelogue is a community driven blog where users may share tips, experiences, and stories about their favorite locations around the world.</p>
-            <ul class="list-inline banner-social-buttons">
-              <li>
-                <a href="https://travelogueone.herokuapp.com/" class="btn btn-default btn-lg"><span class="network-name">Proof of Concept</span></a>
-              </li>
-              <li>
-                <a href="https://github.com/bachtsui/Travelogue" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
+                <a id="github-link" href="https://github.com/isangieri/flick-hike" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
               </li>
             </ul>
           </div>
