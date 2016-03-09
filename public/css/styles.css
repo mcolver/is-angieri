@@ -358,6 +358,9 @@ img::-moz-selection {
 .device {
   display: center;
 }
+#device-shape {
+  cursor: pointer;
+}
 .device-shape-vertical {
   height: 470px;
   width: 260px;
