@@ -165,6 +165,16 @@ h1 {
 #app-description {
   margin: 0 30px;
 }
+#app-details {
+  padding: 0 60px 0 60px;
+}
+.title {
+  text-transform: uppercase;
+  margin: 25px 0 0 0;
+}
+.subtitle {
+  margin: auto;
+}
 i {
   font-size: 14px;
 }
