@@ -27,7 +27,7 @@
 
 
 /* COLORS
-  - light-black:     #141611
+  - light-black:     #88c1dd
   - white:           #fff
   - gray:           #6c7b7e
 */
@@ -42,9 +42,9 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Garamond", serif;
+  font-family: "Helvetica", sans-serif;;
   color: #fff;
-  background-color: #141611;
+  background-color: #88c1dd;
 }
 html {
   width: 100%;
@@ -63,8 +63,8 @@ body {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, .3);
   text-transform: uppercase;
-  font-family: "Garamond", serif;
-  background-color: #141611;
+  font-family: "Helvetica", sans-serif;;
+  background-color: #88c1dd;
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
@@ -93,7 +93,7 @@ body {
   .navbar-custom.top-nav-collapse {
     padding: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background: #141611;
+    background: #88c1dd;
   }
 }
 .intro {
@@ -155,7 +155,7 @@ footer p {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Garamond", serif;
+  font-family: "Helvetica", sans-serif;;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -267,7 +267,7 @@ a:hover, a:focus {
 .btn {
   border-radius: 0;
   text-transform: uppercase;
-  font-family: "Garamond", serif;
+  font-family: "Helvetica", sans-serif;;
   font-weight: 400;
   padding: 5px;
   -webkit-transition: all .3s ease-in-out;
@@ -332,12 +332,23 @@ ul.banner-social-buttons {
 .content-section {
   padding-top: 100px;
 }
+#ride-to-end-aids {
+  width: 100%;
+  padding: 50px 50px;
+  color: #fff;
+  /*background: url(/images/transparent-gradient.png) no-repeat center center scroll;*/
+  background-color: #88c1dd;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .applications-section {
   width: 100%;
   padding: 50px 50px;
   color: #fff;
   /*background: url(/images/transparent-gradient.png) no-repeat center center scroll;*/
-  background-color: #141611;
+  background-color: #88c1dd;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -349,6 +360,9 @@ ul.banner-social-buttons {
   }
   .applications-section {
     padding: 100px 0;
+  }
+  #ride-to-end-aids {
+    padding: 75px 0;
   }
 }
 #contact {
