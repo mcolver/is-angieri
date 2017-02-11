@@ -15,7 +15,9 @@
 >`sudo mkdir -p /data/db/`
 
 *Give yourself permission to the folder*
->`sudo chown `id -u` /data/db`
+>```
+sudo chown `id -u` /data/db
+``
 
 #### Run application
 1st shell tab:
