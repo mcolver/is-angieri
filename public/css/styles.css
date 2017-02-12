@@ -191,7 +191,7 @@ p {
   }
 }
 a {
-  color: #908c86;
+  color: #FFC145;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -331,17 +331,6 @@ ul.banner-social-buttons {
 
 .content-section {
   padding-top: 100px;
-}
-#ride-to-end-aids {
-  width: 100%;
-  padding: 50px 50px;
-  color: #fff;
-  /*background: url(/images/transparent-gradient.png) no-repeat center center scroll;*/
-  background-color: #88c1dd;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 .applications-section {
   width: 100%;

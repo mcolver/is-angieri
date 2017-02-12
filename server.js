@@ -11,8 +11,23 @@ app.use(express.static(__dirname + '/node_modules'));
 /*
  * HTML Endpoints
  */
-//for client req to server, res 'Hello World'
 app.get('/', function (req, res) {
+  res.sendFile('views/index.html' , { root : __dirname});
+});
+
+app.get('/#about', function (req, res) {
+    res.sendFile('views/index.html' , { root : __dirname});
+});
+
+app.get('/#contacts', function (req, res) {
+  res.sendFile('views/index.html' , { root : __dirname});
+});
+
+app.get('/#applications', function (req, res) {
+  res.sendFile('views/index.html' , { root : __dirname});
+});
+
+app.get('/#ride-to-end-aids', function (req, res) {
   res.sendFile('views/index.html' , { root : __dirname});
 });
 

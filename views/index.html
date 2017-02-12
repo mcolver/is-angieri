@@ -61,7 +61,7 @@
                 <a class="page-scroll" href="#about">About</a>
               </li>
               <li>
-                <a class="page-scroll" href=".applications-section">Applications</a>
+                <a class="page-scroll" href="#applications">Applications</a>
               </li>
               <li>
                 <a class="page-scroll" href="#ride-to-end-aids">Philanthropy</a>
@@ -110,70 +110,68 @@
       </section>
 
       <!-- Applications Section -->
-      <section id="applications" class="content-section text-center">
-        <div class="applications-section">
-          <h1>Applications</h1>
-          <div class="container">
-            <div class="col-md-6">
-              <!-- Device -->
-              <div class="device" id="device">
-                <div class="device-shape-horizontal" id="device-shape">
-                  <div class="device-screen-horizontal" id="device-screen"></div>
-                </div>
-                <i id="toggle-device">click device to toggle view | mobile or desktop
-                </i>
-                <a id="next" class="btn">
-                  <i class="animated">view next</i>
-                </a>
+      <section id="applications" class="content-section text-center applications-section">
+        <h1>Applications</h1>
+        <div class="container">
+          <div class="col-md-6">
+            <!-- Device -->
+            <div class="device" id="device">
+              <div class="device-shape-horizontal" id="device-shape">
+                <div class="device-screen-horizontal" id="device-screen"></div>
               </div>
-              <ul class="list-inline banner-social-buttons">
-                <li>
-                  <a id="app-link" href="http://www.filmhikes.com" target="_blank" class="btn btn-default btn-lg">
-                    <span class="network-name">Proof of Concept</span>
-                  </a>
-                </li>
-                <li>
-                  <a id="github-link" href="https://github.com/isangieri/flick-hike" target="_blank" class="btn btn-default btn-lg">
-                    <i class="fa fa-github fa-fw"></i>
-                    <span class="network-name">Github</span>
-                  </a>
-                </li>
-              </ul>
+              <i id="toggle-device">click device to toggle view | mobile or desktop
+              </i>
+              <a id="next" class="btn">
+                <i class="animated">view next</i>
+              </a>
             </div>
-            <div id="application" class="col-md-6">
-              <h2 id="app-title">Flick Hike</h2>
-              <p id="app-description">Flick Hike is a curation driven site for discovering San Francisco via historic film scene locations. Users curate lists of memorable film scenes, plot their own filmic adventures around the city, and share them with others.</p>
-              <div id='app-details'>
-                <div class='features row'>
-                  <h3 class='title'>Features</h3><hr>
-                  <div class='col-md-12'>
-                    <p><i id='app-features'>Multiple Google Map APIs, data from third-party Open-Data JSON endpoint, Full-Stack Ruby on Rails with client side Javascript, mobile friendly layout, full CRUD on multiple resources, nested join table with REST standards</i></p>
-                  </div>
+            <ul class="list-inline banner-social-buttons">
+              <li>
+                <a id="app-link" href="http://www.filmhikes.com" target="_blank" class="btn btn-default btn-lg">
+                  <span class="network-name">Proof of Concept</span>
+                </a>
+              </li>
+              <li>
+                <a id="github-link" href="https://github.com/isangieri/flick-hike" target="_blank" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="application" class="col-md-6">
+            <h2 id="app-title">Flick Hike</h2>
+            <p id="app-description">Flick Hike is a curation driven site for discovering San Francisco via historic film scene locations. Users curate lists of memorable film scenes, plot their own filmic adventures around the city, and share them with others.</p>
+            <div id='app-details'>
+              <div class='features row'>
+                <h3 class='title'>Features</h3><hr>
+                <div class='col-md-12'>
+                  <p><i id='app-features'>Multiple Google Map APIs, data from third-party Open-Data JSON endpoint, Full-Stack Ruby on Rails with client side Javascript, mobile friendly layout, full CRUD on multiple resources, nested join table with REST standards</i></p>
                 </div>
-                <div class='technologies row'>
-                  <h3 class='title'>Technologies</h3><hr>
-                  <div class='col-md-6'>
-                    <h4 class='subtitle'>Languages</h4>
-                    <p><i id='app-languages'>Ruby, HTML5, CSS3, Javascript</i></p>
-                  </div>
-                  <div class='col-md-6'>
-                    <h4 class='subtitle'>Libraries</h4>
-                    <p><i id='app-libraries'>jQuery, bcrypt, Bootstrap, jQuery UI, FFaker, Rails jQuery Autocomplete</i></p>
-                  </div>
-                  <div class='col-md-6'>
-                    <h4 class='subtitle'>APIs and Datasets</h4>
-                    <p><i id='app-data'>Google Waypoints, Google HTML5 Geolocation, Google Maps, Google Directions Service, SF Open Data Film Locations in San Francisco</i></p>
-                  </div>
-                  <div class='col-md-6'>
-                    <h4 class='subtitle'>Database</h4>
-                    <p><i id='app-database'>PostgreSQL</i></p>
-                  </div>
+              </div>
+              <div class='technologies row'>
+                <h3 class='title'>Technologies</h3><hr>
+                <div class='col-md-6'>
+                  <h4 class='subtitle'>Languages</h4>
+                  <p><i id='app-languages'>Ruby, HTML5, CSS3, Javascript</i></p>
                 </div>
-                <div class='login row'>
-                  <h3 class='title'>Demo Login</h3><hr>
-                  <div class='col-md-12'>
-                    <p><i id='app-login'>something@something.com 123456</i></p>
-                  </div>
+                <div class='col-md-6'>
+                  <h4 class='subtitle'>Libraries</h4>
+                  <p><i id='app-libraries'>jQuery, bcrypt, Bootstrap, jQuery UI, FFaker, Rails jQuery Autocomplete</i></p>
+                </div>
+                <div class='col-md-6'>
+                  <h4 class='subtitle'>APIs and Datasets</h4>
+                  <p><i id='app-data'>Google Waypoints, Google HTML5 Geolocation, Google Maps, Google Directions Service, SF Open Data Film Locations in San Francisco</i></p>
+                </div>
+                <div class='col-md-6'>
+                  <h4 class='subtitle'>Database</h4>
+                  <p><i id='app-database'>PostgreSQL</i></p>
+                </div>
+              </div>
+              <div class='login row'>
+                <h3 class='title'>Demo Login</h3><hr>
+                <div class='col-md-12'>
+                  <p><i id='app-login'>something@something.com 123456</i></p>
                 </div>
               </div>
             </div>
@@ -182,35 +180,32 @@
       </section>
 
       <!-- ALC Section -->
-      <section id="philanthropy" class="container content-section text-center">
-        <div id="ride-to-end-aids">
-          <h2>Riding to End AIDS</h2>
+      <section id="ride-to-end-aids" class="container content-section text-center">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h1>Ride to End AIDS</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jgyZOAgZz1E" frameborder="0" allowfullscreen></iframe>
             <br><br>
             <p>
-              June 4th - June 10th,
-              <strong>I'll be one of thousands of Cyclists,</strong>
-              participating in AIDS/LifeCycle, a
+              <strong>
+                <a href="http://www.tofighthiv.org/site/TR/Events/AIDSLifeCycleCenter?px=3298617&pg=personal&fr_id=1990" target="_blank">Donate to my ride</a>
+              </strong>
+              and learn more about
+              <strong>
+                <a href="http://www.aidslifecycle.org/" target="_blank">AIDS/LifeCycle</a>
+              </strong>
+              .
+            </p>
+            <p>
+              In June 2017
+              <strong>I'll be one of thousands</strong>
+              of Cyclists, participating in AIDS/LifeCycle, a
               <strong>545-mile bike ride</strong>
-              from San Francisco to Los Angeles to raise funds for the
+              from SF to LA to raise funds for the
               <strong>life-saving services</strong>
               offered by San Francisco AIDS Foundation and the Los Angeles LGBT Center.
             </p>
-            <p>
-              The services provided as a result of this event mean the world to
-              those who receive them.
-            </p>
-            <p>
-              Join me in supporting them!
-                <strong>
-                  <a href="http://www.tofighthiv.org/site/TR/Events/AIDSLifeCycleCenter?px=3298617&pg=personal&fr_id=1990" target="_blank">Make a donation today</a>
-                </strong>
-                and learn more about
-                <strong>
-                  <a href="http://www.aidslifecycle.org/" target="_blank">AIDS/LifeCycle</a>
-                </strong>
-              .
-            </p>
+          </div>
         </div>
       </section>
 
